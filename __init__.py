@@ -9,16 +9,21 @@
 """Bikroy Automation App"""
 
 
+import time
 import threading
 import b_info
 import b_links
 
 def startGrabbing():
-    threading.Timer(14.0,startGrabbing).start()
+    toc = time.perf_counter()
+    t = threading.Timer(10.0,startGrabbing)
+    t.start()
     links = b_links.getPageLinks('https://bikroy.com/en/ads')
-
+    if toc - tic >= 20:
+        t.cancel()
     for link in links:
         b_info.getInformation(link)
 
 if __name__ == "__main__":
+    tic = time.perf_counter()
     startGrabbing()
