@@ -59,7 +59,9 @@ Make a change in your file, run ```python3 __init__.py``` and instantaneously se
 License
 ----
 
-MIT
+Apache License 2.0
+
+[](images/LICENSE.png)
 
 
 **Free Software, Hell Yeah!**
