@@ -61,7 +61,7 @@ License
 
 Apache License 2.0
 
-[](images/LICENSE.png)
+![](images/LICENSE.png)
 
 
 **Free Software, Hell Yeah!**
