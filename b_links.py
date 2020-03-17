@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # Author: Mohammad Shiblee Noman Ahad
 # Email: hello@iamahad.com
 # Website: www.iamahad.com
